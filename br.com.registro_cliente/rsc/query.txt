@@ -1,0 +1,14 @@
+CREATE database REGISTRO_CLIENTE;
+USE REGISTRO_CLIENTE;
+
+CREATE TABLE clientes(
+	cod int(4) AUTO_INCREMENT,
+    nome varchar(30) NOT NULL,
+    endereco varchar(50) NOT NULL,
+    numero varchar(20) NOT NULL,
+    email varchar(30),
+    cep varchar(9),
+    dataNasci date,
+    PRIMARY KEY(cod)
+);
+

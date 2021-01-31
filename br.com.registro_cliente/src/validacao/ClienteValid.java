@@ -11,5 +11,5 @@ public class ClienteValid {
 				+ "(?:1[0-2]))\\4(?:(?:1[6-9]|[2-9]\\d)?\\d{2})$";
 		
 		return regex;
-}
+	}
 }
