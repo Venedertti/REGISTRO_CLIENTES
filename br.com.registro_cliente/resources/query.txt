@@ -12,3 +12,16 @@ CREATE TABLE clientes(
     PRIMARY KEY(cod)
 );
 
+insert into registro_cliente.clientes(
+	nome,
+    numero,
+    email,
+    cep,
+    dataNasci)
+values(
+	"Thiago Ramos de Oliveira",
+    "11 99999-9999",
+    "ramos.oliveira.thi@gmil.com",
+    "99999-999",
+	STR_TO_DATE( "17/11/2001", "%d/%m/%Y")
+);
